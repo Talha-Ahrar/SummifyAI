@@ -1,16 +1,16 @@
 {
+  "homepage": "https://talha-ahrar.github.io/SummifyAI/",
+
   "name": "summize",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://talha-ahrar.github.io/SummifyAI/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b gh-pages"
-
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
